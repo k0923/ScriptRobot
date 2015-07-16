@@ -1,0 +1,17 @@
+﻿<Window x:Class="RemoteScriptAgent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Script:"/>
+            <TextBox x:Name="tb_Script" MinWidth="350"/>
+            <Button x:Name="btn_Open" Click="btn_Open_Click" Content="..."/>
+        </StackPanel>
+        <Button Grid.Row="1" x:Name="btn_Run" Click="btn_Run_Click" Content="Run"/>
+    </Grid>
+</Window>

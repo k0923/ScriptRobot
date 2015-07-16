@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="b9e06fd5-3c1d-46c6-aab0-140358c26d8b" name="RemoteScript" linkedPackageId="6bcf7001-9069-482d-8f31-70d6d95dbc8d" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="2cb810cc-202d-4f03-b324-363773b58e71" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="acb10220-a213-4ca4-a50a-5dc8671245a8" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9d2f7bf5-9e1a-4157-81f8-b66412929f39">
+          <propertyInstance Id="307c6e07-52a9-4438-bb68-1139cf7dfc83" name="BaseName">
+            <elementDefinition Id="953c48e7-623b-410e-9855-c18133a6e10e" />
+          </propertyInstance>
+          <elementDefinition Id="256ec0a2-d673-4610-a343-9bba5f5d4577" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="01760ab9-e115-43a6-9e95-9fdf818b4baf">
+          <propertyInstance Id="a2f72c0f-ece9-4eeb-9d9e-1c36209ba328" name="ClrAttributes">
+            <elementDefinition Id="3e165e86-be97-4636-a0b7-6185fbf50319" />
+          </propertyInstance>
+          <elementDefinition Id="200c25fb-0b4d-41bd-b3d2-219525ead4ed" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="896b8f8e-4fe7-4aa2-9243-036a7a68bbf6">
+          <propertyInstance Id="89271c7c-d568-4323-b31c-4929f9a7ad8c" name="Usings">
+            <elementDefinition Id="e45f1def-4ce0-4e1e-b789-1a48a5ad5faf" />
+          </propertyInstance>
+          <elementDefinition Id="a6a70a42-504b-4c8c-9756-60050fce8e6b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="e3948489-d027-4b44-9942-f73db0dda4f3" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="14deecb6-d17c-411a-9cb1-47737c975226" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="851111e7-fd66-44b3-bed8-4da8336e8273">
+          <propertyInstance Id="034dc272-c7e4-4c48-8ea1-b9ca3381a779" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="00355edd-ac33-401f-beab-e5ab140b0d8f" />
+          </propertyInstance>
+          <elementDefinition Id="f43e6869-27a0-486b-a864-175b362b4112" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a5d134cd-0716-4712-a251-15b359c8f652">
+          <propertyInstance Id="b939541f-0f6e-489d-bde8-60d7647f4d7e" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="edf98acb-6272-4ec5-a750-c59333fc9717" />
+          </propertyInstance>
+          <elementDefinition Id="a9fb3006-f1ee-4b2c-a881-741f0fe506fc" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ba9bb142-1754-46b5-bb61-5e27735aa7cb">
+          <propertyInstance Id="9fb1cfac-cd82-4de8-a96a-2dafe9ec1eab" name="ProjectPath" value="ClassTemplate=..\RemoteScript.ModelingLib\RemoteScript.ModelingLib.csproj|EnumTemplate=..\RemoteScript.ModelingLib\RemoteScript.ModelingLib.csproj|InterfaceTemplate=..\RemoteScript.ModelingLib\RemoteScript.ModelingLib.csproj|StructTemplate=..\RemoteScript.ModelingLib\RemoteScript.ModelingLib.csproj">
+            <elementDefinition Id="ba50ec23-42d4-4854-b2a1-564f15141897" />
+          </propertyInstance>
+          <elementDefinition Id="e005bba0-8b2b-4a2d-a77f-1bb660b988e9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2b46c352-9934-4159-9979-f0a2c0c89c68">
+          <propertyInstance Id="33232e43-1b69-47e0-aa11-739aa19b5d87" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="2803588e-d69d-4b0a-b3b9-05a75a36ef07" />
+          </propertyInstance>
+          <elementDefinition Id="5ac4fb73-6d49-4c52-9d2b-5f9df042d54f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="901b5aed-66c3-44d7-ae5a-d9463b3c1784">
+          <propertyInstance Id="d28db872-be9f-4332-98bc-c9b5299a1773" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="2603a41d-6348-44c8-ba5e-1e6de163b696" />
+          </propertyInstance>
+          <elementDefinition Id="dd933771-7527-41af-8986-5edc9f0f13be" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5fad2e6c-bb27-4772-ad77-c8650e93ce27">
+          <propertyInstance Id="ceff5dcb-35d2-40c1-99ba-28b4f53996f5" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="56b046dd-5d08-43e1-9c36-d17faec8f38e" />
+          </propertyInstance>
+          <elementDefinition Id="916bb51b-41a7-4b4a-a997-0b2609ee682d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="24419d0e-0d39-47cb-9661-237d11b55f4c">
+          <propertyInstance Id="946fd561-e0b5-467b-82b8-be75c99d1005" name="Parameters">
+            <elementDefinition Id="e4359032-d5de-4df8-bf56-882140946b07" />
+          </propertyInstance>
+          <elementDefinition Id="b818de2f-fe66-4abe-b76b-8735fef2fb23" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="9f8182b8-9625-4789-9eef-dce8e8a7add4">
+      <profileInstance Id="6478e8e6-1708-48b4-8642-09f34656d3d2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f5c3da95-8e0c-43ad-8753-54e7a077210c">
+      <profileInstance Id="154128dd-2092-4d82-9940-702b9265ce23" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="94e1adc3-6c1e-4765-bd64-831a6c6dc1ee">
+      <profileInstance Id="1628199a-a3e3-45ea-a781-e84d1806a61b" name="CSharpProfile">
+        <elementDefinition Id="f718c4fb-6acc-48ed-a518-2e2584c68b97" />
+      </profileInstance>
+      <elementDefinition Id="b3f9f1dc-9294-4603-967b-05b394dda3d4" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="821fab4b-1b94-4e1d-a3d8-e62a7756585a">
+      <profileInstance Id="8e2a675b-1cf5-4315-952e-454d95a21dda" name="TextTemplateBindings">
+        <elementDefinition Id="039a7e8e-a45b-46ab-aa0b-0fc69ae05f61" />
+      </profileInstance>
+      <elementDefinition Id="d6f60892-66f6-470f-aa4b-78769211af7d" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="bd523521-bf06-485a-a1d9-23334d1a1650" name="Client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f0559812-0f07-425a-baf0-5b5439d75854" />
+        <targetEnds>
+          <association Id="63802ae8-7de3-4e02-aaa0-795e0325bd2a" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Send Case To Remote" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3fcd66c3-672c-4565-87fe-9b130d5f234b" LastKnownName="Send Case To Remote" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9bc25b08-94d4-42f3-b0d9-5bca7f45f3b8" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="28a1bf96-576a-40ce-a66a-3da0fcc7acac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b0f986ae-931a-427b-9562-752cb051c025" name="Send Case To Remote" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1bfe729a-644e-4896-8dbe-2c946558c7f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="313a4188-4dbb-4d24-ad2d-25a93bded9c8" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="12a91cdf-6f04-45c2-8b3c-8a370d383623" name="Remote" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c3b60bf-1c00-4e0f-b126-9640e2529efd" />
+        <targetEnds>
+          <association Id="baf53df8-79f9-4496-9501-0077257cc2c6" isDerived="false" sourceEndRoleName="Remote" targetEndRoleName="Execute Script and Send Result" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9a3272bf-0e83-4232-acc8-7c72bd6223ff" LastKnownName="Execute Script and Send Result" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="45cd0c4c-3626-4e21-a16d-1bfb2551c2e2" name="Remote" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="96301b6a-7531-432a-8253-9419629c7eb9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="222faf42-c31f-4294-8e49-b1018d4184dc" name="Execute Script and Send Result" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b1301c57-367e-4b08-a356-e992c656187d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d81fa062-0c73-46bb-861e-672dbef4c5cc" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3fcd66c3-672c-4565-87fe-9b130d5f234b" name="Send Case To Remote" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7bec111b-eead-4b6c-90f3-20748defe2b8" />
+        <targetEnds>
+          <association Id="96f5f2bf-a96b-4ccd-9840-6ca84fcf4a23" isDerived="false" sourceEndRoleName="Send Case To Remote" targetEndRoleName="Remote" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="12a91cdf-6f04-45c2-8b3c-8a370d383623" LastKnownName="Remote" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dce1e9a2-34a7-40ae-9de1-650f55a308a7" name="Send Case To Remote" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9b71d033-b218-4bdf-88f2-0bfdaff576cd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b195ec22-0660-4bad-a1b9-4d274fa8244d" name="Remote" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5ac972d9-f226-4b84-9cb6-a89d09a62b52" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="45db9d5f-800f-4574-97d7-ef511a8e0c1e" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9a3272bf-0e83-4232-acc8-7c72bd6223ff" name="Execute Script and Send Result" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="409fb802-c04c-436c-b6b9-088325c11126" />
+        <targetEnds>
+          <association Id="4600afe0-087b-4ef7-a2c1-a6b8897fd9d3" isDerived="false" sourceEndRoleName="Execute Script and Send Result" targetEndRoleName="Client" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="bd523521-bf06-485a-a1d9-23334d1a1650" LastKnownName="Client" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5d59f25c-63cb-4bad-b8e1-d9d4a15cdc38" name="Execute Script and Send Result" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a662f908-a99a-47f7-9600-cb89f8e4a25c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="25c17a77-ee8b-4028-ae7e-7d3e65c3b344" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="10e88283-fa87-4a6c-ac20-bdede2fc1263" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="96e410ed-ed02-4388-b938-37c720d3083a" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="6bcf7001-9069-482d-8f31-70d6d95dbc8d" name="RemoteScript.Modeling">
+    <elementDefinition Id="51db014f-d7d8-4293-a965-d7568101df75" />
+  </package>
+</useCaseModelRoot>
